@@ -1,2 +1,2 @@
-# A **Roman Bogachkov**
-### A **_Junior Fronted Developer_**
+# **Roman Bogachkov**
+### **_Junior Fronted Developer_**
