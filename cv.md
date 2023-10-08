@@ -1,5 +1,5 @@
 # Roman Bogachkov
-   ### _Junior Fronted Developer_
+   _Junior Fronted Developer_
 ## CONTACT INFO
    - **E-mail:**  rbi013@mail.ru
    - **Telegramm:**  @twinhard
