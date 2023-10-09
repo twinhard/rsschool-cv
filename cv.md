@@ -12,11 +12,9 @@ I want to change my occupation and lifestyle. Therefore, my goal is to become a 
 - VS Code
 ## Code example:
 ```
-# Заголовок
-_Курсивный текст_
-- Элемент списка
-**Жирный текст**
-[Ссылка](https://twinhard.github.io/rsschool-cv/cv)
+function multiply(a, b){
+     return a * b
+}
 ```
 ## Experience:
 - [CV Project](https://twinhard.github.io/rsschool-cv/cv)
