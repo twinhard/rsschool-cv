@@ -1,1 +1,1 @@
-https://twinhard.github.io/rsschool-cv/cv
+https://twinhard.github.io/rsschool-cv/
