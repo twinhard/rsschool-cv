@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(185, 174, 174);
+}
+
+.container {
+  width: 1030px;
+  margin: 0 auto;
+}
+ 
+.header {
+  margin: 20px 20px 0px;
+  border: 1px solid red;
+}
+
+.header_container {
+  height: 300px;
+  display: flex;
+}
+
+.header_foto {
+  width: 30%;
+  display: inline-flex;
+  justify-content: center;
+  background-color: rgb(27, 30, 47);
+}
+
+header img {
+  margin: auto;
+  border-radius: 50%;
+  border: 4px solid rgb(254, 203, 0);
+}
+
+
+.header_content {
+  width: 70%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.header_menu {
+  height: 15%;
+  background-color: rgb(27, 30, 47);
+}
+
+.header_username {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+}
+
+.line2 {
+  height: 210px;
+    width: 10px;
+    background-color: rgb(254, 203, 0);
+}
+
+.user_info {
+  height: 210px;
+    width: 711px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header_menu_list {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.line {
+  height: 15%;
+  background-color: rgb(27, 30, 47);
+}
+
+.line2 {
+  height: 210px;
+  width: 10px;
+}
+ul {
+  list-style: none;
+}
+.main {
+  margin: 0px 20px;
+  border: 1px solid green;
+}
+
+.two_columns {
+  display: flex;
+}
+
+.left_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  text-align: center;
+  color: white;
+  background-color: rgb(27, 30, 47);
+}
+
+.ul_left {
+  padding: 25px;
+}
+.right_column {
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+}
+
+.about {
+  position: relative;
+  font-size: 25px;
+  margin: 0;
+  padding-left: 60px;
+  line-height: 40px;
+  margin-top: 50px;
+  background-color: rgb(235, 235, 235);
+}
+
+.about::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 40px;
+  background-color: rgb(254, 203, 0);
+}
+
+.exp {
+  position: relative;
+  font-size: 25px;
+  margin: 0;
+  padding-left: 60px;
+  line-height: 40px;
+  margin-top: 50px;
+  background-color: rgb(235, 235, 235);
+}
+
+
+.exp::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 40px;
+  background-color: rgb(254, 203, 0);
+}
+
+
+.prg {
+  position: relative;
+  font-size: 25px;
+  margin: 0;
+  padding-left: 60px;
+  line-height: 40px;
+  margin-top: 50px;
+  background-color: rgb(235, 235, 235);
+}
+
+.prg::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 40px;
+  background-color: rgb(254, 203, 0);
+}
+
+
+.paragraph1 {
+  padding: 50px;
+  padding-bottom: 0;
+  font-size: 20px;
+}
+
+.paragraph2 {
+  padding: 0px 50px;
+  font-size: 20px;
+}
+
+.paragraph3 {
+  padding: 50px;
+  font-size: 20px;
+}
+
+.paragraph4 {
+  padding: 50px;
+  padding-top: 0;
+  font-size: 20px;
+}
+
+.footer {
+  height: 100px;
+  margin: 0px 20px 20px;
+  border: 1px solid yellow;
+}
+
+.s_contacts {
+  position: relative;
+  font-size: 22px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+
+}
+
+.s_contacts::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(254, 203, 0);
+}
+
+.s_skills {
+  position: relative;
+  font-size: 22px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+
+}
+
+.s_skills::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(254, 203, 0);
+}
+
+.s_courses {
+  position: relative;
+  font-size: 22px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+
+}
+
+.s_courses::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(254, 203, 0);
+}
+
+.s_language {
+  position: relative;
+  font-size: 22px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+
+}
+
+.s_language::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(254, 203, 0);
+}
+
+#f_container {
+  display: flex;
+  justify-content: right;
+  color: white;
+  background-color: rgb(27, 30, 47);
+}
+
+.logo1 {
+  border-radius: 50%;
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid white;
+}
+
+.logo2 {
+  border-radius: 50%;
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid white;
+}
+
+
+.c_p {
+  margin: 20px;
+}
+pre {
+  margin: 50px;
+  background-color: #ede9be;
+}
+
+code {
+  font-size: 20px;
+}
