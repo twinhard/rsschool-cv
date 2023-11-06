@@ -13,8 +13,7 @@ body {
 }
  
 .header {
-  margin: 20px;
-  margin-bottom: 0;
+  margin: 20px 20px 0px;
   border: 1px solid red;
 }
 
@@ -88,9 +87,7 @@ ul {
   list-style: none;
 }
 .main {
-  margin: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0px 20px;
   border: 1px solid green;
 }
 
@@ -99,6 +96,9 @@ ul {
 }
 
 .left_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 30%;
   text-align: center;
   color: white;
@@ -106,7 +106,7 @@ ul {
 }
 
 .ul_left {
-  padding: 0;
+  padding: 25px;
 }
 .right_column {
   width: 70%;
@@ -115,6 +115,7 @@ ul {
 
 .about {
   position: relative;
+  font-size: 25px;
   margin: 0;
   padding-left: 60px;
   line-height: 40px;
@@ -134,6 +135,7 @@ ul {
 
 .exp {
   position: relative;
+  font-size: 25px;
   margin: 0;
   padding-left: 60px;
   line-height: 40px;
@@ -155,6 +157,7 @@ ul {
 
 .prg {
   position: relative;
+  font-size: 25px;
   margin: 0;
   padding-left: 60px;
   line-height: 40px;
@@ -180,8 +183,7 @@ ul {
 }
 
 .paragraph2 {
-  padding: 50px;
-  padding-top: 0;
+  padding: 0px 50px;
   font-size: 20px;
 }
 
@@ -190,9 +192,120 @@ ul {
   font-size: 20px;
 }
 
+.paragraph4 {
+  padding: 50px;
+  padding-top: 0;
+  font-size: 20px;
+}
+
 .footer {
   height: 100px;
-  margin: 20px;
-  margin-top: 0;
+  margin: 0px 20px 20px;
   border: 1px solid yellow;
+}
+
+.s_contacts {
+  position: relative;
+  font-size: 22px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+
+}
+
+.s_contacts::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(254, 203, 0);
+}
+
+.s_skills {
+  position: relative;
+  font-size: 22px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+
+}
+
+.s_skills::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(254, 203, 0);
+}
+
+.s_courses {
+  position: relative;
+  font-size: 22px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+
+}
+
+.s_courses::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(254, 203, 0);
+}
+
+.s_language {
+  position: relative;
+  font-size: 22px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+
+}
+
+.s_language::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(254, 203, 0);
+}
+
+#f_container {
+  display: flex;
+  justify-content: right;
+  color: white;
+  background-color: rgb(27, 30, 47);
+}
+
+.logo1 {
+  border-radius: 50%;
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid white;
+}
+
+.logo2 {
+  border-radius: 50%;
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid white;
+}
+
+
+.c_p {
+  margin: 20px;
+}
+pre {
+  margin: 50px;
+  background-color: #ede9be;
+}
+
+code {
+  font-size: 20px;
 }
