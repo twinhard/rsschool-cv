@@ -115,8 +115,183 @@ body {
 }
 
 .favorites {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
     height: 1439px;
+    background: green;
 }
+
+.title_favorits {
+    font-family: Forum, sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.line_title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50px;
+    margin: 60px 55px;
+    border-bottom: 1px solid black;
+    
+}
+
+.favorites_text {
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.favorites_season {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: bold;
+    color: #0c0c0e;
+}
+
+
+.radio_form {
+    align-self: flex-start;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+
+.radio {
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    gap: 90px;
+    line-height: normal;
+}
+
+.radio_item {
+    display: inherit;
+    gap: 20px;
+}
+
+.input_item {
+    width: 17px;
+}
+
+.favorites_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 1400px;
+    height: 1150px;
+    background: red;
+}
+
+.bg_description {
+    position: relative;
+    width: 550px;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.title_bg {
+    font-family: Forum, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.staff::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60px;
+    margin-top: 40px;
+    border-bottom: 1px solid #BB945F;
+}
+
+.title_autor {
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+
+.bg_text_form {
+    width: 355px;
+    height: 320;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.bg_text {
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.button_book {
+    position: absolute;
+    bottom: 15px;
+    width: 75px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.bg_button {
+    font-family: Inter, sans-serif;
+    width: inherit;
+    height: inherit;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+#button {
+    font-family: Inter, sans-serif;
+    width: inherit;
+    height: inherit;
+    color: #BB945F;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid #BB945F;
+    border-radius: 2px;
+}
+
+.books {
+    position: absolute;
+    margin-left: 390px;
+}
+
+.item {
+    display: flex;
+    align-items: flex-end;
+    width: 590px;
+    height: 555px;
+    background: blue;
+}
+
 
 .coffee_shop {
     height: 781px;
