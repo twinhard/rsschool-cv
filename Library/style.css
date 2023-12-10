@@ -394,10 +394,68 @@ body {
 }
 
 .contacts {
-    height: 515px;
+    height: 575px;
     padding: 20px 20px 40px 20px;
+    background: yellow;
 }
 
+.our_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background: blue;
+
+}
+
+.contacts_box {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 414px;
+    background: green;
+}
+
+.left_box {
+    display: flex;
+    flex-direction: column;
+    text-wrap: nowrap;
+    width: 503px;
+    height: 414px;
+    background: white;
+}
+
+.text_box {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.text_item {
+    font-weight: 700;
+}
+
+.please_call {
+    margin-top: 40px;
+}
+
+.tty_service {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.senior_staff {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.right_box {
+    width: 696px;
+    height: 414px;
+    background: white;
+}
 .cards {
     height: 616px;
 }
